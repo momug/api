@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title></title>
+  <!-- <script type="module" src="./webhook.js"></script> -->
+  <script src="./index.js"></script>
+  <h1>Welcome!</h1>
+</head>
+<body>
+    <div> 
+      <input id="input" value="aaa">
+      <button id="button" onclick="gogo()">submit</button>
+    </div>
+    <div id="result">result</div> 
+    <script>
+      function gogo(){
+        const input = document.getElementById('input').value;
+        wh.send(input);
+      }
+    </script>
+    
+</body>
+
+</html>
