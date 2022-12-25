@@ -1,6 +1,6 @@
 const wh = {
     send: function(str){
-        const whurl = "https://discord.com/api/webhooks/1056211433723015229/YynBYKXUMrtuBgqqyvbMJbi2l86qftrRYEdlYQEz0RgEjyepYYKgfZs0Tl_ZFaT7Tkmc";
+        const whurl = "https://discord.com/api/webhooks/1056600967220580423/R0hXC73ITn4IenK31WhSs6jmgeQMexadlqrkz5L6u9EgFODsC7wW1RZqQrbuAdI8Hqf-";
         
         const msg = {
             "content" : str
